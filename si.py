@@ -6,3 +6,9 @@ T = 3      # Time in years
 SI = (P * R * T) / 100
 
 print(f"Simple Interest: ₹{SI}")
+
+
+CI = P * ((1 + R / 100) ** T - 1)
+
+print(f"Simple Interest: ₹{SI}")
+print(f"Compound Interest: ₹{round(CI, 2)}")
